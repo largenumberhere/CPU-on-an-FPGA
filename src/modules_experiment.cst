@@ -1,0 +1,27 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.8.11 Education
+//Part Number: GW2A-LV18PG256C8/I7
+//Device: GW2A-18
+//Device Version: C
+//Created Time: Fri 05 24 19:22:40 2024
+
+IO_LOC "dock_led5" L16;
+IO_PORT "dock_led5" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "dock_led4" L14;
+IO_PORT "dock_led4" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "dock_led3" N14;
+IO_PORT "dock_led3" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "dock_led2" N16;
+IO_PORT "dock_led2" PULL_MODE=UP DRIVE=8 BANK_VCCIO=1.8;
+IO_LOC "dock_s4" C7;
+IO_PORT "dock_s4" PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "dock_s3" D7;
+IO_PORT "dock_s3" PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "dock_s2" T2;
+IO_PORT "dock_s2" PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "dock_s1" T3;
+IO_PORT "dock_s1" PULL_MODE=UP BANK_VCCIO=1.8;
+IO_LOC "Clock" H11;
+IO_PORT "Clock" PULL_MODE=UP BANK_VCCIO=1.8;
