@@ -13,9 +13,9 @@ This aims to keep to the declarative, modular and iterative style of the nand2te
 ## strcuture
 The files in this project are organized accordingly:
 `manual_tests` - in many places, these are modules that can be used to program an FPGA that will provide an output for manual verification.
-`src/gate_logic` - contains all the basic logic gates.
+`src/layer_1` - contains all the basic logic gates corrosponding to project1
 `src/dock` - contains wrappers for the unique components of the Tang Primer 20k with its ext dock board.
-`src/top.v` - contains the entrypoint.
+`src/top.v` - contains the entrypoint. This instantiates all the modules of the hack chipset and connects them to board-specific logic.
 
 ##
 
