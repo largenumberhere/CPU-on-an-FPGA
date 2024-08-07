@@ -31,6 +31,9 @@
         <File path="src/layer_1/or8way.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/xor.v" type="file.verilog" enable="1"/>
         <File path="src/layer_3a/bit.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_3a/ram64.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_3a/ram8.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_3a/register.v" type="file.verilog" enable="1"/>
         <File path="src/top.v" type="file.verilog" enable="1"/>
         <File path="src/modules_experiment.cst" type="file.cst" enable="1"/>
     </FileList>

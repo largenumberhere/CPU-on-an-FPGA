@@ -1,4 +1,4 @@
-module Dmux8Way(
+module DMux8Way(
     input in,
     input [0:2] sel,
     output a,

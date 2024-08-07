@@ -32,8 +32,37 @@ module Main(
     //Or8WayTest(led2,led3,led4,led5);
     
 //    Bit(button1, button2, led3, Clock);
-    Bit(button2, button3, led4, Clock);
+    // Bit(button2, button3, led4, Clock);
 //    And(button2, button3, led4);
+
+    // wire [0:15] r_out;
+    // wire [0:15] r_in;
+    
+    // assign r_in[0] = button2;
+    // assign r_in[15] = button3;
+    // assign led3 = r_out[0]; //= led3;
+    // assign led4 = r_out[15];// = led4;
+     
+
+    // Register(r_in, button4, r_out, Clock);
+
+    // wire[0:2] addr;
+    // assign addr = 'b010;
+    // wire[0:15] in;
+    // assign in = 'b110000000000001;
+    // wire[0:15] out;
+    
+
+
+    // Ram8(in, button1, addr, out, Clock);
+
+    // assign led1 = 'b0;
+    // assign led2 = 'b0;
+    // assign led3 = out[0];
+    // assign led4 = out[15];
+    // assign led5 = 'b0;
+    
+    Ram64();
 
 endmodule
 
