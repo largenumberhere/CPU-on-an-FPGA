@@ -29,9 +29,11 @@ module Main(
     
     Leds(dock_led2, dock_led3, dock_led4, dock_led5, led2, led3, led4, led5);
 
-    Or8WayTest(led2,led3,led4,led5);
+    //Or8WayTest(led2,led3,led4,led5);
     
-
+//    Bit(button1, button2, led3, Clock);
+    Bit(button2, button3, led4, Clock);
+//    And(button2, button3, led4);
 
 endmodule
 

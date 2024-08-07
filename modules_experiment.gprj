@@ -7,19 +7,30 @@
     <FileList>
         <File path="src/dock/button.v" type="file.verilog" enable="1"/>
         <File path="src/dock/buttons.v" type="file.verilog" enable="1"/>
+        <File path="src/dock/dff.v" type="file.verilog" enable="1"/>
         <File path="src/dock/led.v" type="file.verilog" enable="1"/>
         <File path="src/dock/leds.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/and.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/and16.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/dmux.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/dmux4way.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/dmux8way.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/manual_tests/and_test.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/manual_tests/nand_test.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/manual_tests/or8way_test.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/manual_tests/or_test.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/manual_tests/xor_test.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/mux.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/mux16.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/mux4way16.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/mux8way16.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/nand.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/not.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/or.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_1/or16.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/or8way.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/xor.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_3a/bit.v" type="file.verilog" enable="1"/>
         <File path="src/top.v" type="file.verilog" enable="1"/>
         <File path="src/modules_experiment.cst" type="file.cst" enable="1"/>
     </FileList>
