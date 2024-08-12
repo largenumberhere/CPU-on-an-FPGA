@@ -62,8 +62,24 @@ module Main(
     // assign led4 = out[15];
     // assign led5 = 'b0;
     
-    Ram64();
+    // Ram64();
+
+    wire clock2;
+    SlowClock
+(Clock, clock2);
+
+    wire[0:15] r_in;// = 0;
+    wire[0:15] r_out;// = 0;
+
+    Register(r_in,1'b1,r_out, clock2);
+    //Inc16(r_out,r_in);
+    Add16(r_out, 16'b1000000000000000, r_in);
+
+
+    assign led2 = r_in[00];
+    assign led3 = r_in[01];
+    assign led4 = r_in[02];
+    assign led5 = r_in[03];
+    
 
 endmodule
-
-

@@ -10,6 +10,7 @@
         <File path="src/dock/dff.v" type="file.verilog" enable="1"/>
         <File path="src/dock/led.v" type="file.verilog" enable="1"/>
         <File path="src/dock/leds.v" type="file.verilog" enable="1"/>
+        <File path="src/dock/slow_clock.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/and.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/and16.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/dmux.v" type="file.verilog" enable="1"/>
@@ -30,6 +31,10 @@
         <File path="src/layer_1/or16.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/or8way.v" type="file.verilog" enable="1"/>
         <File path="src/layer_1/xor.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_2/add16.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_2/full_adder.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_2/half_adder.v" type="file.verilog" enable="1"/>
+        <File path="src/layer_2/inc16.v" type="file.verilog" enable="1"/>
         <File path="src/layer_3a/bit.v" type="file.verilog" enable="1"/>
         <File path="src/layer_3a/ram64.v" type="file.verilog" enable="1"/>
         <File path="src/layer_3a/ram8.v" type="file.verilog" enable="1"/>
