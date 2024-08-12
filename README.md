@@ -22,5 +22,6 @@ The files in this project are organized accordingly:
 `src/dock` - contains wrappers for the unique components of the Tang Primer 20k with its ext dock board.
 `src/top.v` - contains the entrypoint. This instantiates all the modules of the hack chipset and connects them to board-specific logic.
 
-##
+## compatability
+ - Assumes a clock of 27'000'000 Hz. Modifications may need to be made (eg: change slow_clock) for other frequencies. 
 
